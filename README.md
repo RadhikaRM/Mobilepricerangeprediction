@@ -19,8 +19,9 @@
   * [Introduction](#Introduction)
   * [Problem Statement](#Problem-Statement)
   * [Dataset Information](#dataset-information)
+  * [Tools and Technologies used](#tools-and-technologies-used)
   * [Steps involved](#Steps-involved)
-  * [Models used](#Models-used)
+  * [Algorithms used](#Algorithms-used)
   * [Conclusion](#Conclusion)
 
 
@@ -32,7 +33,8 @@
 Mobile phones are one of the most common and most in demand electronic devices in today’s times.Theis device has revolutionized our society and simplified our lives in many ways. Mobile phones have enabled us to easily communicate with people all over the globe regardless of where we are, stay informed with the help of the internet, play music ,videos and games, take photos and videos,store and share considerable amounts of data,conduct monetary transactions and much more.
 
 The demand for mobile phones grows in tandem with technological advancements,every year. Needless to say, there are a large number of companies competing in this market right now. Therefore,companies want to understand sales data of mobile phones and factors which drive the prices.
-🎯The goals of this project are:
+
+🎯 The goals of this project are:
 * To find the relation between the features (RAM, phone dimensions,camera quality,etc.) of the phone and the selling price.
 * To identify the Classification  model which accurately predict the price range of the phones based on features.
 
@@ -77,7 +79,7 @@ The rising demand for mobile phones has led to fierce competition in the market.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h2>🛠️ Tools and Technologies Used </h2>
+<h2>🛠️ Tools and Technologies used </h2>
 
 
 The programming language used in this project is Python . The following libraries were used for data analysis and data visualization and to build a classifier to predict the price range of mobile phones.
@@ -116,27 +118,32 @@ The programming language used in this project is Python . The following librarie
 
 <h2> :bulb: Conclusion</h2>
 
-*  SVM and Logistic regression models  give the most accurate prediction  and hence these models are best fit in this scenario.
-*  Feature selection based on ‘Chi2’ and Feature importance graphs plotted from the models suggest that RAM, pixel resolution (pixel width and pixel height) and battery power are the most important factors that influence the pricing of the mobile phones.
+* Findings from EDA:
 
+  *  Relatively expensive phones have more RAM and higher capacity batteries.
+  *  Most of the phones do not contain front camera or have low quality front cameras.
+  *  Expensive phones have better pixel resolution
+  *  Premium price range phones are light-weight and have wider screens as compared to phones in the lower price ranges.
 
+* Conclusion from Evaluation of Models:
 
-
-
+  *  SVM and Logistic regression models  give the most accurate prediction  and hence these models are best fit in this scenario.
+  *  Feature selection based on ‘Chi2’ and Feature importance graphs plotted from the models suggest that RAM, pixel resolution (pixel width and pixel height) and battery power are the most important factors that influence the pricing of the mobile phones.
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+<!-- CREDITS -->
+<h2 id="credits"> :scroll: Credits</h2>
+
+Radhika R Menon | Avid Learner | Data Scientist | Machine Learning Engineer 
+
+<p> <i> Contact me for Data Science Project Collaborations</i></p>
+
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/radhikarm/)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/RadhikaRM)
+[![Medium Badge](https://img.shields.io/badge/Medium-1DA1F2?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@RadhikaRM)
+[![Resume Badge](https://img.shields.io/badge/resume-0077B5?style=for-the-badge&logo=resume&logoColor=white)](https://drive.google.com/file/d/14T4AXWQuUIyIj6KgA4AIrXPckgqXPAQ8/view?usp=sharing)
+
+
+
